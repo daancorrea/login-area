@@ -1,0 +1,101 @@
+*{
+    padding: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background: dimgrey;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    max-width: 375px;
+    margin: 100px auto;
+    padding-left: 16px;
+    background:white;
+    border-radius: 5px;
+}
+.login h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41px;
+    color: #000000;
+    padding-top: 128px;
+    margin: 0;
+}
+.login p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.41px;
+    margin-top: 12px;
+    margin-bottom: 102px;
+}
+body input{
+    background: #F2F2F7;
+    border-radius: 6px;
+    width: 343px;
+    height: 48px;
+    border: none;
+}
+body input::placeholder{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;   
+    letter-spacing: -0.41px;
+    color: #929292;
+    padding-left: 14px;
+}
+#email{
+    margin-bottom: 12px;
+}
+#password{
+    margin-bottom: 17px;
+}
+.password{
+    display: block;
+    text-align: right;
+    margin-right: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #007AFF;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.container button{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background: rgba(0, 0, 0, 0.94);
+    border-radius: 10px;
+    width: 343px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.container button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.container p{
+    text-align: center;
+    margin-top: 204px;
+    padding-bottom: 39px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.51);
+}
+.container p a{
+    text-decoration: none;
+    color: #007AFF;
+}
